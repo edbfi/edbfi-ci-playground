@@ -12,7 +12,7 @@ license = "AGPL-3.0-only"
 dependencies = ["PyYAML>=6.0.3"]
 
 [dependency-groups]
-dev = ["pytest>=8", "types-PyYAML>=6.0.12"]
+dev = ["pytest>=8", "types-PyYAML>=6.0.12", "prek>=0.5.3"]
 
 [tool.setuptools.packages.find]
 where = ["src"]
