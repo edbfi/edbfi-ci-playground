@@ -1,0 +1,23 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "edbfi-ci-playground"
+version = "0.0.1"
+description = "Disposable edbfi CI integration fixture"
+requires-python = ">=3.14"
+license = "AGPL-3.0-only"
+dependencies = ["PyYAML>=6.0.3"]
+
+[dependency-groups]
+dev = ["pytest>=8", "types-PyYAML>=6.0.12"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.basedpyright]
+pythonVersion = "3.14"
+typeCheckingMode = "recommended"
+include = ["src", "scripts", "tests"]
