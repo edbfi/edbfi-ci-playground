@@ -48,6 +48,9 @@ jobs:
       - run: uv sync --locked
       - run: uv build
       - run: uv run --locked python scripts/smoke.py
+      - name: Temporary red-check probe for Dependabot uv PRs
+        if: startsWith(github.head_ref, 'dependabot/uv/')
+        run: exit 1
   ci-ok:
     if: always()
     needs: [checks, smoke]
