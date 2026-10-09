@@ -1,7 +1,7 @@
 # This cask is updated by the tap pipeline (pipelines/qview/).
 # Do not edit the version or sha256 lines manually.
 cask "qview" do
-  version "7.0"
+  version "7.1"
   sha256 "fa34d0e54601b8557f4e879527b9bb1e728ace5c7c1c69cf126700ca4d0b5817"
 
   url "https://github.com/edbfi/edbfi-ci-playground/releases/download/qview-latest/qView-#{version}.dmg"
