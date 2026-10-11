@@ -1,8 +1,0 @@
-{
-  "name": "playground-biome-probe",
-  "private": true,
-  "packageManager": "bun@1.4.2",
-  "devDependencies": {
-    "@biomejs/biome": "2.5.15"
-  }
-}
