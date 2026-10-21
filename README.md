@@ -7,4 +7,4 @@ The CI, PR policy and auto-merge workflows come from edbfi-ci templates.
 Only disposable test data belongs here. `DEPENDENCY_AUTOMERGE_TOKEN` belongs only
 in a Dependabot secret and must be scoped to this repository.
 
-Test evidence and rollout decisions belong in the edbfi-ci S4 PR.
+Test evidence and rollout decisions belong in edbfi-ci PRs.
